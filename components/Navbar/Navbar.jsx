@@ -11,30 +11,35 @@ const Navbar = () => {
 	return (
 		<>
 			<section className="sticky top-0 bg-white w-full z-50 flex justify-center ">
-				<div className="container hidden w-full justify-between py-4 px-4 lg:flex items-center">
+				<div className="container mx-auto hidden w-full justify-between py-4 px-4 lg:flex items-center">
 					<Link href="/">
 						<div className="flex items-center space-x-1">
 							<img
 								src="logo.svg"
 								width={120}
 								height={100}
-								className="h-10 w-auto"
+								className="h-12 w-auto"
 							/>
 							<img
 								src="js-img.png"
 								width={120}
 								height={100}
-								className="h-7 w-auto -mt-1.5"
+								className="h-8 w-auto -mt-1.5"
 							/>
 						</div>
 					</Link>
 					<div className="flex items-center space-x-7">
-						<button 
-  className="text-text font-medium" 
-  onClick={() => window.open('https://dev-app.jobscout.work/', '_blank')}
->
-  Login
-</button>
+						<button
+							className="text-text font-medium"
+							onClick={() =>
+								window.open(
+									"https://dev-app.jobscout.work/",
+									"_blank",
+								)
+							}
+						>
+							Login
+						</button>
 
 						<button className="text-text font-medium bg-btnbackground px-4 py-2 rounded">
 							Request Demo
