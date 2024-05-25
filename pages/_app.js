@@ -1,5 +1,29 @@
+
+import Navbar from "@/components/Navbar/Navbar";
 import "@/styles/globals.css";
+import Head from "next/head";
+import { useRouter } from "next/router";
+import { Toaster } from "react-hot-toast";
 
 export default function App({ Component, pageProps }) {
-  return <Component {...pageProps} />;
+	const router = useRouter();
+	return (
+		<>
+			<Head>
+				<title>Jobscout Website</title>
+				<link
+					rel="apple-touch-icon"
+					href="/favicon.ico"
+					type="image"
+					sizes="any"
+				/>
+				<link rel="icon" href="/favicon.ico" type="image" sizes="any" />
+				<link rel="icon" href="/favicon.ico" sizes="any" />
+			</Head>
+			{router?.pathname !== "/404" && <Navbar />}
+			<Toaster position="top-center" />
+			<Component {...pageProps} />
+		
+		</>
+	);
 }

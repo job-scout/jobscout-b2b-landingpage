@@ -12,6 +12,8 @@ module.exports = {
 				primary: "#080E4B",
 
 				black: "#403D4E",
+				text: "#3F468F",
+				btnbackground: "#D5D5EC",
 			},
 		},
 	},
