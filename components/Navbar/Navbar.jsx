@@ -11,7 +11,7 @@ const Navbar = () => {
 	return (
 		<>
 			<section className="sticky top-0 bg-white w-full z-50 flex justify-center ">
-				<div className="container mx-auto hidden w-full justify-between py-4 px-4 lg:flex items-center">
+				<div className="container mx-auto  hidden lg:w-[80%] 2xl:w-[80%] justify-between py-4 px-4 lg:flex items-center ">
 					<Link href="/">
 						<div className="flex items-center space-x-1">
 							<img
@@ -28,7 +28,7 @@ const Navbar = () => {
 							/>
 						</div>
 					</Link>
-					<div className="flex items-center space-x-7">
+					<div className="flex items-center space-x-7 lg:mr-6">
 						<button
 							className="text-text font-medium"
 							onClick={() =>
