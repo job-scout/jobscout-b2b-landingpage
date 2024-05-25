@@ -1,11 +1,8 @@
-
 import React, { useState } from "react";
 
 import Link from "next/link";
 
 const Navbar = () => {
-	
-
 	return (
 		<>
 			<section className="sticky top-0 bg-white w-full z-50 flex justify-center ">
@@ -65,7 +62,14 @@ const Navbar = () => {
 					</div>
 				</Link>
 
-				<button className="text-text font-medium text-xl">Login</button>
+				<button
+					className="text-text font-medium text-xl"
+					onClick={() =>
+						window.open("https://dev-app.jobscout.work/", "_blank")
+					}
+				>
+					Login
+				</button>
 			</section>
 		</>
 	);
