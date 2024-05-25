@@ -29,7 +29,13 @@ const Navbar = () => {
 						</div>
 					</Link>
 					<div className="flex items-center space-x-7">
-						<button className="text-text font-medium">Login</button>
+						<button 
+  className="text-text font-medium" 
+  onClick={() => window.open('https://dev-app.jobscout.work/', '_blank')}
+>
+  Login
+</button>
+
 						<button className="text-text font-medium bg-btnbackground px-4 py-2 rounded">
 							Request Demo
 						</button>
