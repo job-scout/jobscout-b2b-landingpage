@@ -10,6 +10,8 @@ body {
 }
 
 
+/* marquee css */
+
 .marquee-container {
   overflow: hidden;
   white-space: nowrap;

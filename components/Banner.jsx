@@ -39,7 +39,6 @@ function Banner() {
 			</div>
 
 			<div className="used-across-section relative flex flex-col items-center justify-center space-y-12 lg:pt-7 pb-16">
-					
 				<p className="text-white text-lg lg:text-xl relative z-10 font-medium w-[90%] container mx-auto text-center">
 					USED ACROSS 300,000+ ORGANIZATIONS
 				</p>
@@ -144,12 +143,11 @@ function Banner() {
 
 				@media (max-width: 1024px) {
 					.grid-background {
-						display:none
-						
+						display: none;
 					}
 
 					.grid-background::before {
-						display:none
+						display: none;
 					}
 				}
 			`}</style>
