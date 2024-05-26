@@ -40,7 +40,7 @@ function Banner() {
 
 			<div className="used-across-section relative flex flex-col items-center justify-center space-y-12 lg:pt-7 pb-16">
 					
-				<p className="text-white lg:text-xl relative z-10 font-medium w-[90%] container mx-auto text-center">
+				<p className="text-white text-lg lg:text-xl relative z-10 font-medium w-[90%] container mx-auto text-center">
 					USED ACROSS 300,000+ ORGANIZATIONS
 				</p>
 
