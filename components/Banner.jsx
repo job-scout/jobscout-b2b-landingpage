@@ -38,35 +38,19 @@ function Banner() {
 				</div>
 			</div>
 
-			<div className="used-across-section relative flex flex-col items-center justify-center space-y-12 lg:pt-7 pb-16">
+			<div className="used-across-section relative flex flex-col items-center justify-center  lg:pt-7 pb-8">
 				<p className="text-white text-lg lg:text-xl relative z-10 font-medium w-[90%] container mx-auto text-center">
-					USED ACROSS 300,000+ ORGANIZATIONS
+					TRUSTED ACROSS THE GLOBE
 				</p>
 
-				<div className="lg:flex items-center space-x-12 relative z-10 hidden">
+				<div className="lg:flex items-center relative z-10 hidden">
 					<img
-						src="dummy-logo.jpg"
-						className="w-auto h-28"
+						src="globe.png"
+						className="h-40"
 						alt="Logo 1"
 					/>
 
-					<img
-						src="dummy-logo.jpg"
-						className="w-auto h-28"
-						alt="Logo 2"
-					/>
-
-					<img
-						src="dummy-logo.jpg"
-						className="w-auto h-28"
-						alt="Logo 3"
-					/>
-
-					<img
-						src="dummy-logo.jpg"
-						className="w-auto h-28"
-						alt="Logo 4"
-					/>
+					
 				</div>
 
 				<div className="marquee-container lg:hidden">
