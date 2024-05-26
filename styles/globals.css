@@ -8,3 +8,32 @@ body {
   font-family: "Poppins", sans-serif;
   /* background-color: #080E4B;  */
 }
+
+
+.marquee-container {
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.marquee-content {
+  display: inline-block;
+  animation: marquee 15s linear infinite;
+}
+
+@keyframes marquee {
+  0% { transform: translateX(100%); }
+  100% { transform: translateX(-100%); }
+}
+
+.marquee-content img {
+  display: inline-block;
+  width: auto;
+  height: 78px;
+  margin-right: 60px; /* Space between images */
+}
+
+@media (min-width: 1024px) {
+  .marquee-container {
+    display: none; /* Hide on large screens */
+  }
+}
