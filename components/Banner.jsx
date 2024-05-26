@@ -3,9 +3,9 @@ import React from "react";
 function Banner() {
 	return (
 		<div className="relative bg-gradient-to-b from-primary via-primary/95 to-primary/75 min-h-screen overflow-hidden">
-			<div className="grid-background"></div>
+			<div className="grid-background "></div>
 
-			<div className="text-white  lg:h-[85vh] flex items-center justify-between container mx-auto px-4 lg:w-[80%] 2xl:w-[80%] space-x-12 lg:pt-8">
+			<div className="text-white  h-[90vh] lg:h-[85vh] flex items-center justify-between container mx-auto px-4 lg:w-[80%] 2xl:w-[80%] space-x-12 lg:pt-8">
 				<div className="lg:w-[50%] flex flex-col space-y-12 lg:my-0 my-12">
 					<div className="flex flex-col space-y-5">
 						<h1 className="lg:text-left text-center text-5xl font-medium lg:leading-snug leading-snug">
@@ -23,7 +23,7 @@ function Banner() {
 							Get started for free
 						</button>
 
-						<button className="bg-white/10 py-3 px-10 rounded text-lg">
+						<button className="bg-white/10  py-3 px-10 rounded text-lg">
 							Request Demo
 						</button>
 					</div>
@@ -38,7 +38,8 @@ function Banner() {
 				</div>
 			</div>
 
-			<div className="used-across-section relative flex flex-col items-center justify-center space-y-12 pt-7 pb-16">
+			<div className="used-across-section relative flex flex-col items-center justify-center space-y-12 lg:pt-7 pb-16">
+					
 				<p className="text-white lg:text-xl relative z-10 font-medium w-[90%] container mx-auto text-center">
 					USED ACROSS 300,000+ ORGANIZATIONS
 				</p>
@@ -68,11 +69,15 @@ function Banner() {
 						alt="Logo 4"
 					/>
 				</div>
+
 				<div className="marquee-container lg:hidden">
 					<div className="marquee-content">
 						<img src="dummy-logo.jpg" alt="Logo 1" />
+
 						<img src="dummy-logo.jpg" alt="Logo 2" />
+
 						<img src="dummy-logo.jpg" alt="Logo 3" />
+
 						<img src="dummy-logo.jpg" alt="Logo 4" />
 					</div>
 				</div>
@@ -133,6 +138,19 @@ function Banner() {
 						);
 
 					background-size: 50px 80px;
+				}
+
+				/* For mobile view (max-width 1024px) */
+
+				@media (max-width: 1024px) {
+					.grid-background {
+						display:none
+						
+					}
+
+					.grid-background::before {
+						display:none
+					}
 				}
 			`}</style>
 		</div>
