@@ -12,7 +12,7 @@ body {
 
 /* marquee css */
 
-.marquee-container {
+/* .marquee-container {
   overflow: hidden;
   white-space: nowrap;
 }
@@ -31,11 +31,11 @@ body {
   display: inline-block;
   width: auto;
   height: 78px;
-  margin-right: 60px; /* Space between images */
+  margin-right: 60px; 
 }
 
 @media (min-width: 1024px) {
   .marquee-container {
-    display: none; /* Hide on large screens */
+    display: none;
   }
-}
+} */

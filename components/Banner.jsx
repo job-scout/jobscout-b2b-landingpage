@@ -43,16 +43,10 @@ function Banner() {
 					TRUSTED ACROSS THE GLOBE
 				</p>
 
-				<div className="lg:flex items-center relative z-10 hidden">
-					<img
-						src="globe.png"
-						className="h-40"
-						alt="Logo 1"
-					/>
-
-					
+				<div className="lg:flex items-center relative z-10 ">
+					<img src="globe.png" className="h-40" alt="Logo 1" />
 				</div>
-
+				{/* 
 				<div className="marquee-container lg:hidden">
 					<div className="marquee-content">
 						<img src="dummy-logo.jpg" alt="Logo 1" />
@@ -63,7 +57,7 @@ function Banner() {
 
 						<img src="dummy-logo.jpg" alt="Logo 4" />
 					</div>
-				</div>
+				</div>*/}
 			</div>
 
 			<style jsx>{`
