@@ -127,16 +127,16 @@ function Banner() {
 
 					background-image: linear-gradient(
 							to right,
-							rgba(255, 255, 255, 0.1) 1px,
+							rgba(255, 255, 255, 0.05) 1px,
 							transparent 1px
 						),
 						linear-gradient(
 							to bottom,
-							rgba(255, 255, 255, 0.1) 1px,
+							rgba(255, 255, 255, 0.05) 1px,
 							transparent 1px
 						);
 
-					background-size: 50px 80px;
+					background-size: 80px 100px;
 				}
 
 				/* For mobile view (max-width 1024px) */
