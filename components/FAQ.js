@@ -38,7 +38,7 @@ const FAQ = () => {
               restDelta: 0.001,
             },
           }}
-          className="py-2 pb-12 overflow-hidden text-black"
+          className="pt-2 pb-20 overflow-hidden text-black"
         >
           <div className="poppins-text w-[95%] md:w-[90%] lg:w-[70%] xl:w-[65%] mx-auto">
             <motion.p
