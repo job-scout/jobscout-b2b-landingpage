@@ -182,7 +182,7 @@ function Features() {
 
              {/*5 section */ }
             
-			<div className="lg:flex lg:flex-row flex flex-col items-center justify-between lg:space-x-12 container mx-auto px-4 w-full lg:w-[80%] 2xl:w-[80%]">
+			<div className="lg:flex lg:flex-row flex flex-col items-center justify-between lg:space-x-12 container mx-auto px-4 py-7 w-full lg:w-[80%] 2xl:w-[80%]">
 				<div className="lg:w-[50%] flex flex-col">
 					<h1 className="text-black text-2xl lg:text-3xl font-medium">
 						Accelerate Your Hiring Process with AI
