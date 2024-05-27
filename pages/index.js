@@ -18,10 +18,11 @@ export default function Home() {
 
       <Banner />
       <Features />
-      <FAQ />
+      <GetInTouch/>
+      
       <Hire/>
       <OurHappyCustomers />
-      <GetInTouch/>
+      <FAQ />
     </main>
   );
 }
