@@ -14,21 +14,21 @@ function Features() {
 					<div className="my-7 flex flex-col space-y-7">
 						<div className="flex items-start ">
 							<CheckCircleIcon color="#080E4B" size={30} className="mr-4"/>{" "}
-							<p className="text-gray-500 text-lg max-w-sm 2xl:text-xl  ">
+							<p className="text-gray-500 text-lg max-w-[80%] lg:max-w-sm 2xl:text-xl  ">
 								Utilize AI to schedule interviews automatically
 								without manual intervention.
 							</p>
 						</div>
 						<div className="flex items-start ">
 							<CheckCircleIcon color="#080E4B" size={30} className="mr-4"/>{" "}
-							<p className="text-gray-500 text-lg max-w-sm 2xl:text-xl">
+							<p className="text-gray-500 text-lg max-w-[80%] lg:max-w-sm 2xl:text-xl">
 								Evaluate candidates promptly with AI-powered
 								assessment tools.
 							</p>
 						</div>
 						<div className="flex items-start ">
 							<CheckCircleIcon color="#080E4B" size={30} className="mr-4"/>{" "}
-							<p className="text-gray-500 text-lg max-w-sm 2xl:text-xl">
+							<p className="text-gray-500 text-lg max-w-[80%] lg:max-w-sm 2xl:text-xl">
 								Access AI-generated insights to make faster
 								hiring decisions.
 							</p>
@@ -61,20 +61,20 @@ function Features() {
 						<div className="my-7 flex flex-col space-y-7">
 							<div className="flex items-start ">
 								<CheckCircleIcon color="#080E4B" size={30} className="mr-4"/>{" "}
-								<p className="text-gray-500 text-lg max-w-sm 2xl:text-xl">
+								<p className="text-gray-500 text-lg max-w-[80%] lg:max-w-sm 2xl:text-xl">
 									Streamline repetitive tasks using AI, freeing up recruiter time.
 								</p>
 							</div>
 							<div className="flex items-start ">
 								<CheckCircleIcon color="#080E4B" size={30} className="mr-4"/>{" "}
-								<p className="text-gray-500 text-lg max-w-sm 2xl:text-xl">
+								<p className="text-gray-500 text-lg max-w-[80%] lg:max-w-sm 2xl:text-xl">
 									Reduce expenses with AI-driven process
 									efficiencies.
 								</p>
 							</div>
 							<div className="flex items-start ">
 								<CheckCircleIcon color="#080E4B" size={30} className="mr-4"/>{" "}
-								<p className="text-gray-500 text-lg max-w-sm 2xl:text-xl">
+								<p className="text-gray-500 text-lg max-w-[80%] lg:max-w-sm 2xl:text-xl">
 									Allow your team to focus on high-impact
 									tasks by offloading routine work to AI.
 								</p>
@@ -100,21 +100,21 @@ function Features() {
 					<div className="my-7 flex flex-col space-y-7">
 						<div className="flex items-start ">
 							<CheckCircleIcon color="#080E4B" size={30} className="mr-4"/>{" "}
-							<p className="text-gray-500 text-lg max-w-sm 2xl:text-xl">
+							<p className="text-gray-500 text-lg max-w-[80%] lg:max-w-sm 2xl:text-xl">
 								Utilize AI tools that monitor and secure the
 								interview process.
 							</p>
 						</div>
 						<div className="flex items-start ">
 							<CheckCircleIcon color="#080E4B" size={30} className="mr-4"/>{" "}
-							<p className="text-gray-500 text-lg max-w-sm 2xl:text-xl">
+							<p className="text-gray-500 text-lg max-w-[80%] lg:max-w-sm 2xl:text-xl">
 								Ensure that the candidate’s performance is
 								genuine with AI verification.
 							</p>
 						</div>
 						<div className="flex items-start ">
 							<CheckCircleIcon color="#080E4B" size={30} className="mr-4"/>{" "}
-							<p className="text-gray-500 text-lg max-w-sm 2xl:text-xl">
+							<p className="text-gray-500 text-lg max-w-[80%] lg:max-w-sm 2xl:text-xl">
 								Increase the reliability of your hiring
 								decisions with AI-driven integrity checks.
 							</p>
@@ -147,21 +147,21 @@ function Features() {
 						<div className="my-7 flex flex-col space-y-7">
 							<div className="flex items-start ">
 								<CheckCircleIcon color="#080E4B" size={30} className="mr-4"/>{" "}
-								<p className="text-gray-500 text-lg max-w-sm 2xl:text-xl">
+								<p className="text-gray-500 text-lg max-w-[80%] lg:max-w-sm 2xl:text-xl">
 									Implement uniform interview procedures using
 									AI.
 								</p>
 							</div>
 							<div className="flex items-start ">
 								<CheckCircleIcon color="#080E4B" size={30} className="mr-4"/>{" "}
-								<p className="text-gray-500 text-lg max-w-sm 2xl:text-xl">
+								<p className="text-gray-500 text-lg max-w-[80%] lg:max-w-sm 2xl:text-xl">
 									Minimize conscious and subconscious biases
 									with AI algorithms.
 								</p>
 							</div>
 							<div className="flex items-start ">
 								<CheckCircleIcon color="#080E4B" size={30} className="mr-4"/>{" "}
-								<p className="text-gray-500 text-lg max-w-sm 2xl:text-xl">
+								<p className="text-gray-500 text-lg max-w-[80%] lg:max-w-sm 2xl:text-xl">
 									Attract and retain a diverse pool of talent
 									with AI-enhanced fairness.
 								</p>
