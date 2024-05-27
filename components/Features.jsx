@@ -4,8 +4,8 @@ import React from "react";
 function Features() {
 	return (
 		<div className="my-16 flex flex-col space-y-8">
-            {/*1 section */ }
-            
+			{/*1 section */}
+
 			<div className="lg:flex lg:flex-row flex flex-col items-center justify-between lg:space-x-12 container mx-auto px-4 w-full lg:w-[80%] 2xl:w-[80%]">
 				<div className="lg:w-[50%] flex flex-col">
 					<h1 className="text-black text-2xl lg:text-3xl font-medium">
@@ -14,27 +14,42 @@ function Features() {
 
 					<div className="my-7 flex flex-col space-y-7">
 						<div className="flex items-start ">
-							<CheckCircleIcon color="#080E4B" size={30} className="mr-4"/>{" "}
+							<CheckCircleIcon
+								color="#080E4B"
+								size={30}
+								className="mr-4"
+							/>{" "}
 							<p className="text-gray-500 text-lg max-w-[80%] lg:max-w-sm 2xl:text-xl  ">
 								Utilize AI to schedule interviews automatically
 								without manual intervention.
 							</p>
 						</div>
 						<div className="flex items-start ">
-							<CheckCircleIcon color="#080E4B" size={30} className="mr-4"/>{" "}
+							<CheckCircleIcon
+								color="#080E4B"
+								size={30}
+								className="mr-4"
+							/>{" "}
 							<p className="text-gray-500 text-lg max-w-[80%] lg:max-w-sm 2xl:text-xl">
 								Evaluate candidates promptly with AI-powered
 								assessment tools.
 							</p>
 						</div>
 						<div className="flex items-start ">
-							<CheckCircleIcon color="#080E4B" size={30} className="mr-4"/>{" "}
+							<CheckCircleIcon
+								color="#080E4B"
+								size={30}
+								className="mr-4"
+							/>{" "}
 							<p className="text-gray-500 text-lg max-w-[80%] lg:max-w-sm 2xl:text-xl">
 								Access AI-generated insights to make faster
 								hiring decisions.
 							</p>
 						</div>
 					</div>
+					<button className="bg-primary text-white py-2 px-5 rounded text-lg ml-10 lg:w-1/2 mr-10">
+						Know More
+					</button>
 				</div>
 				<div className="lg:w-[40%]">
 					<img
@@ -45,7 +60,7 @@ function Features() {
 				</div>
 			</div>
 			{/*2 section */}
-			<div className=" bg-btnbackground py-7">
+			<div className=" bg-btnbackground py-12">
 				<div className="lg:flex lg:flex-row flex flex-col items-center justify-between lg:space-x-12  px-4 container mx-auto w-full lg:w-[80%] 2xl:w-[80%]">
 					<div className="lg:block hidden lg:w-[40%]">
 						<img
@@ -61,28 +76,44 @@ function Features() {
 
 						<div className="my-7 flex flex-col space-y-7">
 							<div className="flex items-start ">
-								<CheckCircleIcon color="#080E4B" size={30} className="mr-4"/>{" "}
+								<CheckCircleIcon
+									color="#080E4B"
+									size={30}
+									className="mr-4"
+								/>{" "}
 								<p className="text-gray-500 text-lg max-w-[80%] lg:max-w-sm 2xl:text-xl">
-									Streamline repetitive tasks using AI, freeing up recruiter time.
+									Streamline repetitive tasks using AI,
+									freeing up recruiter time.
 								</p>
 							</div>
 							<div className="flex items-start ">
-								<CheckCircleIcon color="#080E4B" size={30} className="mr-4"/>{" "}
+								<CheckCircleIcon
+									color="#080E4B"
+									size={30}
+									className="mr-4"
+								/>{" "}
 								<p className="text-gray-500 text-lg max-w-[80%] lg:max-w-sm 2xl:text-xl">
 									Reduce expenses with AI-driven process
 									efficiencies.
 								</p>
 							</div>
 							<div className="flex items-start ">
-								<CheckCircleIcon color="#080E4B" size={30} className="mr-4"/>{" "}
+								<CheckCircleIcon
+									color="#080E4B"
+									size={30}
+									className="mr-4"
+								/>{" "}
 								<p className="text-gray-500 text-lg max-w-[80%] lg:max-w-sm 2xl:text-xl">
 									Allow your team to focus on high-impact
 									tasks by offloading routine work to AI.
 								</p>
 							</div>
 						</div>
-                    </div>
-                    <div className="lg:hidden lg:w-[40%]">
+						<button className="bg-primary text-white py-2 px-5 rounded text-lg ml-10 lg:w-1/2 mr-10">
+							Know More
+						</button>
+					</div>
+					<div className="lg:hidden lg:w-[40%]">
 						<img
 							src="banner.png"
 							className="w-full h-auto"
@@ -100,27 +131,42 @@ function Features() {
 
 					<div className="my-7 flex flex-col space-y-7">
 						<div className="flex items-start ">
-							<CheckCircleIcon color="#080E4B" size={30} className="mr-4"/>{" "}
+							<CheckCircleIcon
+								color="#080E4B"
+								size={30}
+								className="mr-4"
+							/>{" "}
 							<p className="text-gray-500 text-lg max-w-[80%] lg:max-w-sm 2xl:text-xl">
 								Utilize AI tools that monitor and secure the
 								interview process.
 							</p>
 						</div>
 						<div className="flex items-start ">
-							<CheckCircleIcon color="#080E4B" size={30} className="mr-4"/>{" "}
+							<CheckCircleIcon
+								color="#080E4B"
+								size={30}
+								className="mr-4"
+							/>{" "}
 							<p className="text-gray-500 text-lg max-w-[80%] lg:max-w-sm 2xl:text-xl">
 								Ensure that the candidate’s performance is
 								genuine with AI verification.
 							</p>
 						</div>
 						<div className="flex items-start ">
-							<CheckCircleIcon color="#080E4B" size={30} className="mr-4"/>{" "}
+							<CheckCircleIcon
+								color="#080E4B"
+								size={30}
+								className="mr-4"
+							/>{" "}
 							<p className="text-gray-500 text-lg max-w-[80%] lg:max-w-sm 2xl:text-xl">
 								Increase the reliability of your hiring
 								decisions with AI-driven integrity checks.
 							</p>
 						</div>
 					</div>
+					<button className="bg-primary text-white py-2 px-5 rounded text-lg ml-10 lg:w-1/2 mr-10">
+						Know More
+					</button>
 				</div>
 				<div className="lg:w-[40%]">
 					<img
@@ -131,7 +177,7 @@ function Features() {
 				</div>
 			</div>
 			{/*4 section */}
-			<div className=" bg-btnbackground py-7">
+			<div className=" bg-btnbackground py-12">
 				<div className="lg:flex lg:flex-row flex flex-col items-center justify-between lg:space-x-12  px-4 container mx-auto w-full lg:w-[80%] 2xl:w-[80%]">
 					<div className="lg:block hidden lg:w-[40%]">
 						<img
@@ -147,29 +193,45 @@ function Features() {
 
 						<div className="my-7 flex flex-col space-y-7">
 							<div className="flex items-start ">
-								<CheckCircleIcon color="#080E4B" size={30} className="mr-4"/>{" "}
+								<CheckCircleIcon
+									color="#080E4B"
+									size={30}
+									className="mr-4"
+								/>{" "}
 								<p className="text-gray-500 text-lg max-w-[80%] lg:max-w-sm 2xl:text-xl">
 									Implement uniform interview procedures using
 									AI.
 								</p>
 							</div>
 							<div className="flex items-start ">
-								<CheckCircleIcon color="#080E4B" size={30} className="mr-4"/>{" "}
+								<CheckCircleIcon
+									color="#080E4B"
+									size={30}
+									className="mr-4"
+								/>{" "}
 								<p className="text-gray-500 text-lg max-w-[80%] lg:max-w-sm 2xl:text-xl">
 									Minimize conscious and subconscious biases
 									with AI algorithms.
 								</p>
 							</div>
 							<div className="flex items-start ">
-								<CheckCircleIcon color="#080E4B" size={30} className="mr-4"/>{" "}
+								<CheckCircleIcon
+									color="#080E4B"
+									size={30}
+									className="mr-4"
+								/>{" "}
 								<p className="text-gray-500 text-lg max-w-[80%] lg:max-w-sm 2xl:text-xl">
 									Attract and retain a diverse pool of talent
 									with AI-enhanced fairness.
 								</p>
 							</div>
 						</div>
-                    </div>
-                    <div className="lg:hidden lg:w-[40%]">
+							<button className="bg-primary text-white py-2 px-5 rounded text-lg ml-10 lg:w-1/2 mr-10">
+							Know More
+						</button>
+					</div>
+					
+					<div className="lg:hidden lg:w-[40%]">
 						<img
 							src="banner.png"
 							className="w-full h-auto"
@@ -177,10 +239,7 @@ function Features() {
 						/>
 					</div>
 				</div>
-            </div>
-            
-
-             
+			</div>
 		</div>
 	);
 }
