@@ -5,6 +5,7 @@ import Features from "@/components/Features";
 import OurHappyCustomers from "@/components/OurHappyCustomers";
 import FAQ from "@/components/FAQ";
 import Hire from "@/components/Hire";
+import GetInTouch from "@/components/Contact/GetInTouch";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -19,7 +20,8 @@ export default function Home() {
       <Features />
       <FAQ />
       <Hire/>
-     <OurHappyCustomers/>
+      <OurHappyCustomers />
+      <GetInTouch/>
     </main>
   );
 }
