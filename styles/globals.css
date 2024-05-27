@@ -9,6 +9,20 @@ body {
   /* background-color: #080E4B;  */
 }
 
+.icon-wrapper {
+  width: 30px !important ;
+  height: 30px !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon {
+  width: 100% !important;
+  height: 100% !important;
+  color: #080E4B;
+}
+
 
 /* marquee css */
 
