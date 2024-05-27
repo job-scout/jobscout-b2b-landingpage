@@ -3,8 +3,37 @@ import React, { useState } from "react";
 import Link from "next/link";
 
 const Navbar = () => {
+	const [isVisible, setIsVisible] = useState(true);
+
+	// Function to hide the banner
+
+	const hideBanner = () => {
+		setIsVisible(false);
+	};
 	return (
 		<>
+			{isVisible && (
+				<div
+					id="banner"
+					className="bg-gradient-to-r from-violet-400 via-violet-700 to-blue-700   font-medium text-white text-sm "
+				>
+					<div className="lg:flex lg:flex-row flex flex-col items-center justify-center  lg:h-9 py-1 lg:py-0">
+						<h1>Introducing JobScout mobile app! &#128293;</h1>
+						<a
+							href="https://example.com"
+							className="ml-2 underline"
+						>
+							Install now
+						</a>
+						<button
+							onClick={hideBanner}
+							className="absolute right-7 bg-transparent border-0 text-white cursor-pointer"
+						>
+							✖
+						</button>
+					</div>
+				</div>
+			)}
 			<section className="sticky top-0 bg-white w-full z-50 flex justify-center ">
 				<div className="container mx-auto  hidden lg:w-[80%] 2xl:w-[80%] justify-between py-4 px-4 lg:flex items-center ">
 					<Link href="/">
@@ -43,7 +72,7 @@ const Navbar = () => {
 				</div>
 			</section>
 			<section
-				className={`sticky top-0 -mt-3 bg-white flex h-20 items-center justify-between px-4 lg:hidden z-50`}
+				className={`sticky top-0  bg-white flex h-20 items-center justify-between px-4 lg:hidden z-50`}
 			>
 				<Link href="/">
 					<div className="flex items-center  space-x-1">
