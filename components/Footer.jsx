@@ -4,8 +4,9 @@ import Link from "next/link";
 import React from "react";
 
 function Footer() {
-	return (
-		<div className="bg-btnbackground py-3 text-black lg:flex lg:flex-row flex flex-col items-center justify-between lg:px-5 px-3 font-medium lg:space-y-0 space-y-4">
+    return (
+        <div className="bg-btnbackground">
+		<div className="container mx-auto py-3 text-black lg:flex lg:flex-row flex flex-col items-center justify-between lg:px-5 px-3 font-medium lg:space-y-0 space-y-4 ">
 			<div>
 				<Link href="/privacy-policy"> Privacy</Link> |{" "}
 				<Link href="/terms-of-use"> Terms</Link>
@@ -29,7 +30,8 @@ function Footer() {
 					</a>
 				))}
 			</div>
-		</div>
+            </div>
+            </div>
 	);
 }
 
