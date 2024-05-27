@@ -4,7 +4,8 @@ import React from "react";
 function Features() {
 	return (
 		<div className="my-16 flex flex-col space-y-8">
-			{/*1 section */}
+            {/*1 section */ }
+            
 			<div className="lg:flex lg:flex-row flex flex-col items-center justify-between lg:space-x-12 container mx-auto px-4 w-full lg:w-[80%] 2xl:w-[80%]">
 				<div className="lg:w-[50%] flex flex-col">
 					<h1 className="text-black text-2xl lg:text-3xl font-medium">
@@ -175,6 +176,48 @@ function Features() {
 							alt="Banner"
 						/>
 					</div>
+				</div>
+            </div>
+            
+
+             {/*5 section */ }
+            
+			<div className="lg:flex lg:flex-row flex flex-col items-center justify-between lg:space-x-12 container mx-auto px-4 w-full lg:w-[80%] 2xl:w-[80%]">
+				<div className="lg:w-[50%] flex flex-col">
+					<h1 className="text-black text-2xl lg:text-3xl font-medium">
+						Accelerate Your Hiring Process with AI
+					</h1>
+
+					<div className="my-7 flex flex-col space-y-7">
+						<div className="flex items-start ">
+							<CheckCircleIcon color="#080E4B" size={30} className="mr-4"/>{" "}
+							<p className="text-gray-500 text-lg max-w-[80%] lg:max-w-sm 2xl:text-xl  ">
+								Utilize AI to schedule interviews automatically
+								without manual intervention.
+							</p>
+						</div>
+						<div className="flex items-start ">
+							<CheckCircleIcon color="#080E4B" size={30} className="mr-4"/>{" "}
+							<p className="text-gray-500 text-lg max-w-[80%] lg:max-w-sm 2xl:text-xl">
+								Evaluate candidates promptly with AI-powered
+								assessment tools.
+							</p>
+						</div>
+						<div className="flex items-start ">
+							<CheckCircleIcon color="#080E4B" size={30} className="mr-4"/>{" "}
+							<p className="text-gray-500 text-lg max-w-[80%] lg:max-w-sm 2xl:text-xl">
+								Access AI-generated insights to make faster
+								hiring decisions.
+							</p>
+						</div>
+					</div>
+				</div>
+				<div className="lg:w-[40%]">
+					<img
+						src="banner.png"
+						className="w-full h-auto"
+						alt="Banner"
+					/>
 				</div>
 			</div>
 		</div>
