@@ -1,4 +1,5 @@
 
+import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar/Navbar";
 import "@/styles/globals.css";
 import Head from "next/head";
@@ -23,7 +24,7 @@ export default function App({ Component, pageProps }) {
 			{router?.pathname !== "/404" && <Navbar />}
 			<Toaster position="top-center" />
 			<Component {...pageProps} />
-		
+		{router?.pathname !== "/404" && <Footer />}
 		</>
 	);
 }
