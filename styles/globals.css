@@ -23,6 +23,10 @@ body {
   color: #080E4B;
 }
 
+.PhoneInputInput {
+  outline: none !important;
+}
+
 
 /* marquee css */
 
