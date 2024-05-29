@@ -55,12 +55,12 @@ const Navbar = () => {
 					<div className="flex items-center space-x-7 lg:mr-6">
 						<button
 							className="text-text font-medium"
-							onClick={() =>
-								window.open(
-									"https://dev-app.jobscout.work/",
-									"_blank",
-								)
-							}
+							// onClick={() =>
+							// 	window.open(
+							// 		"https://dev-app.jobscout.work/",
+							// 		"_blank",
+							// 	)
+							// }
 						>
 							Login
 						</button>
@@ -93,9 +93,9 @@ const Navbar = () => {
 
 				<button
 					className="text-text font-medium text-xl"
-					onClick={() =>
-						window.open("https://dev-app.jobscout.work/", "_blank")
-					}
+					// onClick={() =>
+					// 	window.open("https://dev-app.jobscout.work/", "_blank")
+					// }
 				>
 					Login
 				</button>
