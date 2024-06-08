@@ -51,10 +51,10 @@ function Features() {
 						Know More
 					</button>
 				</div>
-				<div className="lg:w-[40%]">
+				<div className="lg:w-[40%]  flex lg:items-end lg:justify-end">
 					<img
-						src="banner.png"
-						className="w-full h-auto"
+						src="feature1.gif"
+						className="w-auto h-auto"
 						alt="Banner"
 					/>
 				</div>
