@@ -1,7 +1,6 @@
-import Image from "next/image";
-// import Link from "next/link";
+
 import React from "react";
-// import ProfileSlider from "./ProfileSlider";
+
 
 import ServiceCard from "./ServiceCard";
 import { PROMISES_DATA } from "@/data/OUR_PROMISES";
