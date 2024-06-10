@@ -168,10 +168,10 @@ function Features() {
 						Know More
 					</button>
 				</div>
-				<div className="lg:w-[40%]">
+				<div className="lg:w-[40%]  flex lg:items-end lg:justify-end">
 					<img
-						src="banner.png"
-						className="w-full h-auto"
+						src="pro 3.gif"
+						className="w-auto lg:h-[450px] h-auto"
 						alt="Banner"
 					/>
 				</div>

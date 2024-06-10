@@ -58,7 +58,7 @@ function Banner() {
 				</p>
 
 				<div className="lg:flex items-center relative z-10 ">
-					<img src="globe.png" className="h-40" alt="Logo 1" />
+					<img src="pro 2.gif" className="h-auto lg:w-[400px] w-auto" alt="Logo 1" />
 				</div>
 				{/* 
 				<div className="marquee-container lg:hidden">
