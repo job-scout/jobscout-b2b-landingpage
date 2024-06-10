@@ -5,28 +5,27 @@
 @tailwind utilities;
 
 body {
-  font-family: "Poppins", sans-serif;
-  /* background-color: #080E4B;  */
+	font-family: "Poppins", sans-serif;
+	/* background-color: #080E4B;  */
 }
 
 .icon-wrapper {
-  width: 30px !important ;
-  height: 30px !important;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+	width: 30px !important ;
+	height: 30px !important;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
 .icon {
-  width: 100% !important;
-  height: 100% !important;
-  color: #080E4B;
+	width: 100% !important;
+	height: 100% !important;
+	color: #080e4b;
 }
 
 .PhoneInputInput {
-  outline: none !important;
+	outline: none !important;
 }
-
 
 /* marquee css */
 
@@ -58,5 +57,15 @@ body {
   }
 } */
 
+.sublime-light {
+	background: linear-gradient(to right, #fc5c7d, #6a82fb);
+}
 
 
+
+.linear-text-gradient {
+	background: linear-gradient(to right, #D7933E,#3AE4AD, #176F8B);
+	-webkit-background-clip: text;
+	background-clip: text;
+	color: transparent;
+}

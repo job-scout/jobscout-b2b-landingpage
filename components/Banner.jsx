@@ -6,13 +6,27 @@ function Banner() {
 			<div className="grid-background "></div>
 
 			<div className="text-white  h-[90vh] lg:h-[85vh] flex items-center justify-between container mx-auto px-4 lg:w-[80%] 2xl:w-[80%] space-x-12 lg:pt-8">
-				<div className="lg:w-[50%] flex flex-col space-y-12 lg:my-0 my-12">
+				<div className="lg:w-[50%] flex flex-col space-y-10 lg:my-0 my-12">
 					<div className="flex flex-col space-y-5">
 						<h1 className="lg:text-left text-center text-5xl font-medium lg:leading-snug leading-snug">
 							Automate your hiring process
 						</h1>
+						<div className=" flex flex-row items-center lg:items-start lg:space-x-6 lg:text-base text-xs space-x-4 font-semibold">
+							<p className=" linear-text-gradient ">
+								{" "}
+								4X <span className="">Response Rate</span>
+							</p>
+							<p className=" linear-text-gradient ">
+								{" "}
+								6X <span className="">Faster Hires</span>
+							</p>
+							<p className=" linear-text-gradient ">
+								{" "}
+								8X <span className="">Referrals</span>
+							</p>
+						</div>
 
-						<p className="text-lg lg:text-left text-center">
+						<p className="text-md lg:text-left text-center">
 							JobScout helps your team transcribe, summarize,
 							search, and analyze voice conversations.
 						</p>

@@ -7,7 +7,7 @@ function Hire() {
 				Hire For Any Talent Across Your Team
 			</h1>
 
-			<button className="bg-text py-3 px-5 rounded text-lg text-white font-medium">
+			<button className="sublime-light py-3 px-5 rounded text-lg text-white font-medium">
 				Get started for free
 			</button>
 		</div>

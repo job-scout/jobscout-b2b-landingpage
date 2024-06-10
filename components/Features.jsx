@@ -15,7 +15,7 @@ function Features() {
 					<div className="my-7 flex flex-col space-y-7">
 						<div className="flex items-start ">
 							<CheckCircleIcon
-								color="#080E4B"
+								color="#3AE4AD"
 								size={30}
 								className="mr-4"
 							/>{" "}
@@ -26,7 +26,7 @@ function Features() {
 						</div>
 						<div className="flex items-start ">
 							<CheckCircleIcon
-								color="#080E4B"
+								color="#3AE4AD"
 								size={30}
 								className="mr-4"
 							/>{" "}
@@ -37,9 +37,9 @@ function Features() {
 						</div>
 						<div className="flex items-start ">
 							<CheckCircleIcon
-								color="#080E4B"
+								color="#3AE4AD"
 								size={30}
-								className="mr-4"
+								className="mr-4 "
 							/>{" "}
 							<p className="text-gray-500 text-lg max-w-[80%] lg:max-w-sm 2xl:text-xl">
 								Access AI-generated insights to make faster
@@ -77,7 +77,7 @@ function Features() {
 						<div className="my-7 flex flex-col space-y-7">
 							<div className="flex items-start ">
 								<CheckCircleIcon
-									color="#080E4B"
+									color="#3AE4AD"
 									size={30}
 									className="mr-4"
 								/>{" "}
@@ -88,7 +88,7 @@ function Features() {
 							</div>
 							<div className="flex items-start ">
 								<CheckCircleIcon
-									color="#080E4B"
+									color="#3AE4AD"
 									size={30}
 									className="mr-4"
 								/>{" "}
@@ -99,7 +99,7 @@ function Features() {
 							</div>
 							<div className="flex items-start ">
 								<CheckCircleIcon
-									color="#080E4B"
+									color="#3AE4AD"
 									size={30}
 									className="mr-4"
 								/>{" "}
@@ -132,7 +132,7 @@ function Features() {
 					<div className="my-7 flex flex-col space-y-7">
 						<div className="flex items-start ">
 							<CheckCircleIcon
-								color="#080E4B"
+								color="#3AE4AD"
 								size={30}
 								className="mr-4"
 							/>{" "}
@@ -143,7 +143,7 @@ function Features() {
 						</div>
 						<div className="flex items-start ">
 							<CheckCircleIcon
-								color="#080E4B"
+								color="#3AE4AD"
 								size={30}
 								className="mr-4"
 							/>{" "}
@@ -154,7 +154,7 @@ function Features() {
 						</div>
 						<div className="flex items-start ">
 							<CheckCircleIcon
-								color="#080E4B"
+								color="#3AE4AD"
 								size={30}
 								className="mr-4"
 							/>{" "}
@@ -194,7 +194,7 @@ function Features() {
 						<div className="my-7 flex flex-col space-y-7">
 							<div className="flex items-start ">
 								<CheckCircleIcon
-									color="#080E4B"
+									color="#3AE4AD"
 									size={30}
 									className="mr-4"
 								/>{" "}
@@ -205,7 +205,7 @@ function Features() {
 							</div>
 							<div className="flex items-start ">
 								<CheckCircleIcon
-									color="#080E4B"
+									color="#3AE4AD"
 									size={30}
 									className="mr-4"
 								/>{" "}
@@ -216,7 +216,7 @@ function Features() {
 							</div>
 							<div className="flex items-start ">
 								<CheckCircleIcon
-									color="#080E4B"
+									color="#3AE4AD"
 									size={30}
 									className="mr-4"
 								/>{" "}
