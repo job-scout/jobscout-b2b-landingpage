@@ -69,3 +69,8 @@ body {
 	background-clip: text;
 	color: transparent;
 }
+
+
+.calm-darya {
+  background: linear-gradient(to left, #031a81, #162928);
+}

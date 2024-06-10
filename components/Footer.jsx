@@ -11,7 +11,7 @@ const Footer = () => {
 	// console.log(router.asPath);
 
 	return (
-		<div className="bg-primary px-4 lg:px-8 lg:py-8 pt-4 pb-8  text-white">
+		<div className="calm-darya px-4 lg:px-8 lg:py-8 pt-4 pb-8  text-white">
 			<div className="container mx-auto lg:w-[90%] 2xl:w-[80%]  w-full justify-between sm:flex  pb-12">
 				<div
 					className="flex flex-col  space-y-5 lg:items-start lg:justify-start lg:w-[40%]  lg:mt-0 mt-12 px-4 "
@@ -28,7 +28,7 @@ const Footer = () => {
 				</div>
 				<div className="mx-4 mt-10  gap-6   lg:mx-0 lg:mt-0 lg:flex lg:flex-row  flex flex-col space-y-7 lg:space-y-0 lg:w-[50%] ">
 					<div className="flex flex-col gap-3 lg:w-[40%]">
-						<p className="font-semibold text-2xl mb-3">
+						<p className="font-semibold text-2xl mb-3 text-white/80">
 							Company
 						</p>
 						<div className="flex flex-col gap-2">
@@ -60,7 +60,7 @@ const Footer = () => {
 						
 					</div>
 					<div className="flex flex-col gap-3 lg:w-[40%]">
-						<p className="font-semibold text-2xl mb-3 ">Resources</p>
+						<p className="font-semibold text-2xl mb-3 text-white/80">Resources</p>
 						<div className="flex flex-col gap-2">
 							<Link
 								className="text-white/50 hover:text-white"
@@ -80,7 +80,7 @@ const Footer = () => {
 					</div>
 
 					<div className="flex flex-col gap-3 lg:w-[30%]">
-						<p className="font-semibold text-2xl mb-3 ">Legal</p>
+						<p className="font-semibold text-2xl mb-3 text-white/80">Legal</p>
 						<div className="flex flex-col gap-2">
 							{/*	{FOOTER_LINKS.contact.map((com, index) => (
 								<div
