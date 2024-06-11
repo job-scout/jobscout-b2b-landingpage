@@ -53,13 +53,22 @@ function Banner() {
 			</div>
 
 			<div className="used-across-section relative flex flex-col items-center justify-center  lg:pt-7 pb-8">
-				<p className="text-white text-lg lg:text-xl relative z-10 font-medium w-[90%] container mx-auto text-center">
-					TRUSTED ACROSS THE GLOBE
-				</p>
+			
 
 				<div className="lg:flex items-center relative z-10 ">
-					<img src="pro 2.gif" className="h-auto lg:w-[400px] w-auto" alt="Logo 1" />
+					<img
+						src="map.gif"
+						className="h-auto  w-auto"
+						alt="Logo 1"
+					/>
 				</div>
+					<p className=" text-white  text-lg lg:text-2xl relative z-10  w-[90%] container mx-auto text-center font-semibold">
+					<span className="underlined ">
+						TRUSTED ACROSS THE
+					</span>
+
+					<span className="ml-2 underlined  underline-clip">GLOBE</span>
+				</p>
 				{/* 
 				<div className="marquee-container lg:hidden">
 					<div className="marquee-content">
