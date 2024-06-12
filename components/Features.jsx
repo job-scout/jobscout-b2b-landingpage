@@ -170,8 +170,8 @@ function Features() {
 				</div>
 				<div className="lg:w-[40%]  flex lg:items-end lg:justify-end">
 					<img
-						src="pro 3.gif"
-						className="w-auto lg:h-[450px] h-auto"
+						src="proctoring.gif"
+						className="w-auto  h-auto"
 						alt="Banner"
 					/>
 				</div>
