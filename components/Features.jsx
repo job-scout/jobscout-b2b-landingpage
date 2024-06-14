@@ -1,5 +1,6 @@
 import { CheckCircleIcon } from "lucide-react";
 import React from "react";
+import OurPromises from "./OurPromises";
 
 function Features() {
 	return (
@@ -21,6 +22,7 @@ function Features() {
 					solutions!
 				</h6>{" "}
 			</div>
+			<OurPromises/>
 			<div className="lg:flex lg:flex-row flex flex-col items-center justify-between lg:space-x-12 container mx-auto px-4 w-full lg:w-[80%] 2xl:w-[80%] py-7">
 				<div className="lg:w-[50%] flex flex-col">
 					<h1 className="text-black text-2xl lg:text-3xl font-medium">

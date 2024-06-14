@@ -1,27 +1,27 @@
 export const PROMISES_DATA =[
     {
         promises: {
-            heading: "Maximize Efficiency, Minimize Loss",
+            heading: "Our Promises",
             subHeading:
-              "Don’t Let Late-Stage Interview Rejections Cost You!",
+              "Streamline hiring, cut costs, save time, and secure top talent !",
             service: [
               {
-                icon: "/megaphone.svg",
-                benefitName: "Delivered as expected, with no surprises",
+                icon: "/promise1.png",
+                benefitName: "Avoid inefficient hiring",
                 description:
-                  "We continuously assess the goal's progress, spot roadblocks, adjust with fresh approaches, and always optimize the value that is produced. We give you all the resources you need to monitor development.",
+                  "Reduce costs and save time by identifying the right candidates early in the process to avoid late-stage rejections.",
               },
               {
-                icon: "/megaphone.svg",
-                benefitName: "Consider the objectives.",
+                icon: "/promise2.png",
+                benefitName: "Boost your recruiting process",
                 description:
-                  "By concentrating on the objective, the released product will meet the demands of the company and its customers while staying within the allocated budget. Money is only spent on necessary expenses that directly benefit you and your consumers.",
+                  "Enhance your hiring strategy with our tools, ensuring a seamless, efficient process that finds top talent quickly and effectively.",
               },
               {
-                icon: "/megaphone.svg",
-                benefitName: "Swift delivery",
+                icon: "/promise3.png",
+                benefitName: "Hire candidates that you need",
                 description:
-                  "We can reduce the time to value ratio and deliver within a relatively short period thanks to continuous automation of all repeatable activities, as well as our smart tools and methods employed in product development.",
+                  "Focus on quality over quantity by selecting candidates who truly match your requirements, improving team productivity and company growth.",
               }
             ],
           },
