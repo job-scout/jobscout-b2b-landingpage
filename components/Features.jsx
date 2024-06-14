@@ -5,7 +5,22 @@ function Features() {
 	return (
 		<div className="my-16 flex flex-col space-y-8">
 			{/*1 section */}
-
+			<div className="text-container px-4 container mx-auto lg:w-[80%] ">
+				<h6 className="text-pink-500 text-lg  mb-4 font-medium">
+					Don’t Let Late-Stage Interview Rejections Cost You!
+				</h6>
+				<h2 className="text-4xl linear-text-gradient1  font-semibold">
+					Maximize Efficiency, Minimize Loss
+				</h2>
+				
+				<h6 className="text-gray-500 lg:text-base 2xl:text-lg  mt-8 ">
+					When a candidate doesn't make it past the 3rd or 4th round,
+					it’s more than just a missed opportunity. It can cost you at
+					least $30-$40 and waste 5 valuable team hours. <br/><br/>Streamline
+					your hiring process and save resources with our innovative
+					solutions!
+				</h6>{" "}
+			</div>
 			<div className="lg:flex lg:flex-row flex flex-col items-center justify-between lg:space-x-12 container mx-auto px-4 w-full lg:w-[80%] 2xl:w-[80%] py-7">
 				<div className="lg:w-[50%] flex flex-col">
 					<h1 className="text-black text-2xl lg:text-3xl font-medium">
@@ -226,11 +241,11 @@ function Features() {
 								</p>
 							</div>
 						</div>
-							<button className="bg-primary text-white py-2 px-5 rounded text-lg ml-10 lg:w-1/2 mr-10">
+						<button className="bg-primary text-white py-2 px-5 rounded text-lg ml-10 lg:w-1/2 mr-10">
 							Know More
 						</button>
 					</div>
-					
+
 					<div className="lg:hidden lg:w-[40%]">
 						<img
 							src="banner.png"

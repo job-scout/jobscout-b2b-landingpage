@@ -1,9 +1,9 @@
 export const PROMISES_DATA =[
     {
         promises: {
-            heading: "OUR PROMISES",
+            heading: "Maximize Efficiency, Minimize Loss",
             subHeading:
-              "How may cooperating with us benefit you?",
+              "Don’t Let Late-Stage Interview Rejections Cost You!",
             service: [
               {
                 icon: "/megaphone.svg",

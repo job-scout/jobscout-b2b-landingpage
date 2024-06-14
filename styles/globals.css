@@ -70,6 +70,13 @@ body {
 	color: transparent;
 }
 
+.linear-text-gradient1 {
+	background: linear-gradient(to right, #fc5c7d,#ffcd28, #000000);
+	-webkit-background-clip: text;
+	background-clip: text;
+	color: transparent;
+}
+
 
 .calm-darya {
   background: linear-gradient(to left, #031a81, #162928);

@@ -66,7 +66,7 @@ const Navbar = () => {
 						</button>
 
 						<button className="text-text font-medium bg-btnbackground px-4 py-2 rounded">
-							Request Demo
+							Try Demo 
 						</button>
 					</div>
 				</div>
