@@ -5,7 +5,7 @@ function Features() {
 	return (
 		<div className="my-16 flex flex-col space-y-8">
 			{/*1 section */}
-			<div className="text-container px-4 container mx-auto lg:w-[80%] ">
+			<div className="text-container px-4 container mx-auto lg:w-[80%] my-12">
 				<h6 className="text-pink-500 text-lg  mb-4 font-medium">
 					Don’t Let Late-Stage Interview Rejections Cost You!
 				</h6>
