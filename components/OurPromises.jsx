@@ -17,7 +17,7 @@ export default function OurPromises() {
 					{subHeading}
 				</h6>
 			</div>
-			<div className="container mx-auto  lg:flex lg:flex-row flex flex-col  items-center justify-between lg:w-[80%] 2xl:w-[60%]  mt-16  mb-28 space-y-16 lg:space-y-0">
+			<div className="container mx-auto  lg:flex lg:flex-row flex flex-col  items-center justify-between lg:w-[90%] 2xl:w-[70%]  mt-16  mb-28 space-y-16 lg:space-y-0">
 				{service.map((s, index) => (
 					<ServiceCard
 						key={index}

@@ -35,7 +35,7 @@ const Navbar = () => {
 				</div>
 			)}
 			<section className="sticky top-0 bg-white w-full z-50 flex justify-center ">
-				<div className="container mx-auto  hidden lg:w-[80%] 2xl:w-[80%] justify-between py-4 px-4 lg:flex items-center ">
+				<div className="container mx-auto  hidden lg:w-[90%] 2xl:w-[90%] justify-between py-4 px-4 lg:flex items-center ">
 					<Link href="/">
 						<div className="flex items-center space-x-1">
 							<img

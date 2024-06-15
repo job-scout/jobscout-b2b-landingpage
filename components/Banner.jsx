@@ -5,13 +5,13 @@ function Banner() {
 		<div className="relative bg-gradient-to-b from-primary via-primary/95 to-primary/75 min-h-screen overflow-hidden">
 			<div className="grid-background "></div>
 
-			<div className="text-white  h-[90vh] lg:h-[85vh] flex items-center justify-between container mx-auto px-4 lg:w-[80%] 2xl:w-[80%] space-x-12 lg:pt-8">
-				<div className="lg:w-[50%] flex flex-col space-y-10 lg:my-0 my-12">
+			<div className="text-white  h-[90vh] lg:h-[85vh] flex items-center justify-between container mx-auto px-4 lg:w-[90%] 2xl:w-[90%] space-x-12 lg:pt-8">
+				<div className="lg:w-[45%] 2xl:w-[40%] flex flex-col space-y-10  lg:my-0 my-12">
 					<div className="flex flex-col space-y-5">
-						<h1 className="lg:text-left text-center text-5xl font-medium lg:leading-snug leading-snug">
+						<h1 className="lg:text-left text-center lg:text-4xl text-5xl 2xl:text-5xl font-medium 2xl:leading-normal lg:leading-snug leading-snug">
 							Automate your hiring process
 						</h1>
-						<div className=" flex flex-row items-center lg:items-start lg:space-x-6 lg:text-base text-xs space-x-4 font-semibold">
+						<div className=" flex flex-row items-center lg:items-start lg:space-x-6 lg:text-base 2xl:text-xl text-xs space-x-5 font-semibold">
 							<p className=" linear-text-gradient ">
 								{" "}
 								4X <span className="">Response Rate</span>
@@ -26,7 +26,7 @@ function Banner() {
 							</p>
 						</div>
 
-						<p className="text-md lg:text-left text-center">
+						<p className="text-md lg:text-md  2xl:text-lg lg:text-left text-center">
 							JobScout helps your team transcribe, summarize,
 							search, and analyze voice conversations.
 						</p>
@@ -43,9 +43,9 @@ function Banner() {
 					</div>
 				</div>
 
-				<div className="lg:w-[40%] 2xl:w-[30%] hidden lg:block">
+				<div className="lg:w-[50%] 2xl:w-[50%] hidden lg:block ">
 					<img
-						src="banner.png"
+						src="banner.gif"
 						className="w-full h-auto"
 						alt="Banner"
 					/>
