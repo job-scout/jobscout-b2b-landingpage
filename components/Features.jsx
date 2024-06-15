@@ -64,9 +64,7 @@ function Features() {
 							</p>
 						</div>
 					</div>
-					<button className="bg-primary text-white py-2 px-5 rounded text-lg ml-10 lg:w-1/2 mr-10">
-						Know More
-					</button>
+					
 				</div>
 				<div className="lg:w-[40%]  flex lg:items-end lg:justify-end">
 					<img
@@ -126,9 +124,7 @@ function Features() {
 								</p>
 							</div>
 						</div>
-						<button className="bg-primary text-white py-2 px-5 rounded text-lg ml-10 lg:w-1/2 mr-10">
-							Know More
-						</button>
+						
 					</div>
 					<div className="lg:hidden lg:w-[40%]">
 						<img
@@ -181,9 +177,9 @@ function Features() {
 							</p>
 						</div>
 					</div>
-					<button className="bg-primary text-white py-2 px-5 rounded text-lg ml-10 lg:w-1/2 mr-10">
+					{/*<button className="bg-primary text-white py-2 px-5 rounded text-lg ml-10 lg:w-1/2 mr-10">
 						Know More
-					</button>
+					</button>*/}
 				</div>
 				<div className="lg:w-[40%]  flex lg:items-end lg:justify-end">
 					<img
@@ -243,9 +239,7 @@ function Features() {
 								</p>
 							</div>
 						</div>
-						<button className="bg-primary text-white py-2 px-5 rounded text-lg ml-10 lg:w-1/2 mr-10">
-							Know More
-						</button>
+						
 					</div>
 
 					<div className="lg:hidden lg:w-[40%]">
