@@ -11,7 +11,7 @@ export default function App({ Component, pageProps }) {
 	return (
 		<>
 			<Head>
-				<title>Jobscout Website</title>
+				<title>Jobscout | Accelerate Your Hiring Process with AI</title>
 				<link
 					rel="apple-touch-icon"
 					href="/favicon.ico"
