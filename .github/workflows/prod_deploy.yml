@@ -12,6 +12,11 @@ jobs:
     steps:
     - name: Checkout code
       uses: actions/checkout@v2
+      
+    # - name: Set up Node.js
+    #   uses: actions/setup-node@v2
+    #   with:
+    #     node-version: '18.17'
     
     - name: Setting Environment Variables
       run: |
@@ -30,14 +35,15 @@ jobs:
       env:
         PRIVATE_KEY_CONTENT: ${{secrets.DEPLOY_KEY}}
       
-    - name: Copying Files to Server
+    - name: Coping Files to Server
       run: |
         ssh ${{secrets.DEPLOY_USER}}@${{secrets.DEPLOY_HOST}} "sudo rm -rf jobscout_landing && sudo mkdir -p jobscout_landing"
-        sudo tar --exclude=".git*" --exclude="id_rsa"  -cf - . | ssh ${{secrets.DEPLOY_USER}}@${{secrets.DEPLOY_HOST}} "sudo tar -C jobscout_landing -xf -"
+        sudo tar --exclude=".git*" --exclude="id_rsa" --exclude="*.yml" -cf - . | ssh ${{secrets.DEPLOY_USER}}@${{secrets.DEPLOY_HOST}} "sudo tar -C jobscout_landing -xf -"
         ssh ${{secrets.DEPLOY_USER}}@${{secrets.DEPLOY_HOST}} "docker build --rm -t jobscout_landing_image jobscout_landing/"
-        ssh ${{secrets.DEPLOY_USER}}@${{secrets.DEPLOY_HOST}} "docker stack deploy -c jobscout_landing/docker-compose.yml jobscout_landing_stack"
+        ssh ${{secrets.DEPLOY_USER}}@${{secrets.DEPLOY_HOST}} "docker service update --image jobscout_landing_image:latest --force jobscout_landing_service"
         ssh ${{secrets.DEPLOY_USER}}@${{secrets.DEPLOY_HOST}} "docker system prune -f"
 
-      # one time in docker
-      # docker swarm init
-      # docker stack deploy -c docker-compose.yml jobscout_landing_stack
+
+        #one time in docker
+        #docker swarm init
+        #docker service create --name jobscout_landing_service --replicas 2 -p 3000:3000 jobscout_landing_image:latest
