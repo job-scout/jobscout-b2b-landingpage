@@ -19,7 +19,7 @@ const Footer = () => {
 				>
 					<img src="js_logo.png" className="lg:w-auto lg:h-36 w-28 h-28"/>
 					<p className="text-white/50 ">
-						Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, id?
+						Streamline hiring, cut costs, save time, and secure top talent !
 					</p>
 					<div className="flex items-center space-x-4">
 				

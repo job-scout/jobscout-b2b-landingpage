@@ -27,8 +27,7 @@ function Banner() {
 						</div>
 
 						<p className="text-md lg:text-md  2xl:text-lg lg:text-left text-center">
-							JobScout helps your team transcribe, summarize,
-							search, and analyze voice conversations.
+							Streamline hiring, cut costs, save time, and secure top talent !
 						</p>
 					</div>
 

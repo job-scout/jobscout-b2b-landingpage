@@ -54,7 +54,7 @@ const Navbar = () => {
 					</Link>
 					<div className="flex items-center space-x-7 lg:mr-6">
 						<button
-							className="text-text font-medium"
+							className="text-text font-semibold"
 							// onClick={() =>
 							// 	window.open(
 							// 		"https://dev-app.jobscout.work/",
@@ -65,7 +65,7 @@ const Navbar = () => {
 							Login
 						</button>
 
-						<button className="text-text font-medium bg-btnbackground px-4 py-2 rounded">
+						<button className="sublime-light text-white font-semibold px-4 py-2 rounded">
 							Try Demo 
 						</button>
 					</div>
