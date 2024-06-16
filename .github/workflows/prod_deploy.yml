@@ -33,7 +33,7 @@ jobs:
     - name: Copying Files to Server
       run: |
         ssh ${{secrets.DEPLOY_USER}}@${{secrets.DEPLOY_HOST}} "sudo rm -rf jobscout_landing && sudo mkdir -p jobscout_landing"
-        sudo tar --exclude=".git*" --exclude="id_rsa" --exclude="*.yml" -cf - . | ssh ${{secrets.DEPLOY_USER}}@${{secrets.DEPLOY_HOST}} "sudo tar -C jobscout_landing -xf -"
+        sudo tar --exclude=".git*" --exclude="id_rsa"  -cf - . | ssh ${{secrets.DEPLOY_USER}}@${{secrets.DEPLOY_HOST}} "sudo tar -C jobscout_landing -xf -"
         ssh ${{secrets.DEPLOY_USER}}@${{secrets.DEPLOY_HOST}} "docker build --rm -t jobscout_landing_image jobscout_landing/"
         ssh ${{secrets.DEPLOY_USER}}@${{secrets.DEPLOY_HOST}} "docker stack deploy -c jobscout_landing/docker-compose.yml jobscout_landing_stack"
         ssh ${{secrets.DEPLOY_USER}}@${{secrets.DEPLOY_HOST}} "docker system prune -f"
