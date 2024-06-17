@@ -8,25 +8,21 @@ import Hire from "@/components/Hire";
 import GetInTouch from "@/components/Contact/GetInTouch";
 import OurPromises from "@/components/OurPromises";
 
-
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
-  return (
-    <main
-      className=""
-    >
-     
-
-      <Banner />
-      <Features />
-      <GetInTouch/>
-      
-      <Hire/>
-      <OurHappyCustomers />
-      <FAQ />
-      
-      
-    </main>
-  );
+	return (
+		<main className="">
+			<Banner />
+			<div id="features"></div>
+			<Features />
+			<div id="contact-us">
+				<GetInTouch />
+      </div>
+      			<div id="get-started" className="pt-16"></div>
+			<Hire />
+			<OurHappyCustomers />
+			<FAQ />
+		</main>
+	);
 }

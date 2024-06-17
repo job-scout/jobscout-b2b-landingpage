@@ -34,19 +34,19 @@ const Footer = () => {
 						<div className="flex flex-col gap-2">
 							<Link
 								className="text-white/50 hover:text-white"
-								href="/"
+								href="/#features"
 							>
-								Our Story
+								Features
 							</Link>
 							<Link
 								className="text-white/50 hover:text-white"
-								href="/"
+								href="/#get-started"
 							>
 								Book a demo
 							</Link>
 							<Link
 								className="text-white/50 hover:text-white"
-								href="/"
+								href="/#contact-us"
 							>
 								Pricing
 							</Link>

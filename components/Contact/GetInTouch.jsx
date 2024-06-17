@@ -33,7 +33,7 @@ const GetInTouch = () => {
     
   };
   return (
-    <div className="  my-12">
+    <div className="pt-20  my-12">
        <Toaster />
       <div className="container mx-auto  lg:w-[80%] 2xl:w-[80%]  flex flex-col lg:flex-row justify-center items-start w-full h-full gap-10 px-2">
         <div className="w-full lg:w-[50%]">
