@@ -192,13 +192,13 @@ function Features() {
 			{/*4 section */}
 			<div className=" bg-orange-50 py-12">
 				<div className="lg:flex lg:flex-row flex flex-col items-center justify-between lg:space-x-12  px-4 container mx-auto w-full lg:w-[80%] 2xl:w-[80%]">
-					<div className="lg:block hidden lg:w-[40%]">
-						<img
-							src="banner.png"
-							className="w-full h-auto"
-							alt="Banner"
-						/>
-					</div>
+					<div className="lg:w-[40%]  lg:flex lg:items-end lg:justify-end hidden ">
+					<img
+						src="report.gif"
+						className="w-auto h-auto"
+						alt="Banner"
+					/>
+				</div>
 					<div className="lg:w-[45%] flex flex-col">
 						<h1 className="text-black text-2xl lg:text-3xl font-medium">
 							Foster a Inclusive Workforce with AI
@@ -244,10 +244,10 @@ function Features() {
 
 					<div className="lg:hidden lg:w-[40%]">
 						<img
-							src="banner.png"
-							className="w-full h-auto"
-							alt="Banner"
-						/>
+						src="report.gif"
+						className="w-auto h-auto"
+						alt="Banner"
+					/>
 					</div>
 				</div>
 			</div>
