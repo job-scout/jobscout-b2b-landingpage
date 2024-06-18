@@ -40,16 +40,14 @@ const CaseStudyCard = ({ index, blog }) => {
       className="flex flex-col lg:flex-row items-center justify-center container w-full mb-5 max-w-sm sm:max-w-lg md:max-w-7xl"
     >
       {/* <div className="absolute top-[-80px] left-[80px] md:top-[-150px] md:left-[250px] xl:top-[65px] xl:left-[-200px]"> */}
-      <div className="flex justify-end items-end -mb-8 lg:mb-0 lg:-me-12 z-10 rounded-full  bg-white">
-        <img
-          src={blog?.previewImage}
-         
-          alt=""
-          className="lg:w-40 w-32 h-auto rounded-full  p-4 shadow-lg"
-        />
+      <div className=" -mb-8 lg:mb-0 lg:-me-12 z-10 rounded-full  bg-white">
+      
+        <div  className="lg:w-32 w-28 lg:h-32 h-28 rounded-full  p-4 shadow-lg flex items-center justify-center velvet-sun text-white text-5xl font-semibold ">
+        { blog?.id}
+        </div>
       </div>
       <div className="relative flex justify-center w-full ">
-        <div className="w-full py-5 bg-[#ecfdf5d5] flex  backdrop:items-center justify-center gap-[30px] rounded-lg shadow-md">
+        <div className="w-full py-5 bg-yellow-50/50 flex  backdrop:items-center justify-center gap-[30px] rounded-lg shadow-md">
           <div
             iv
             className="flex flex-col gap-4 lg:justify-start justify-center w-10/12 pt-3"
@@ -72,7 +70,7 @@ const CaseStudyCard = ({ index, blog }) => {
               <Link
                 href={`/case-studies/${blog?.id}/${blog?.previewTitle}`}
               >
-                <button className=" cursor-pointer px-8 py-2 rounded-full bg-sky-800">
+                <button className=" cursor-pointer px-8 py-2 rounded-full bg-orange-500">
                   View
                 </button>
               </Link>
