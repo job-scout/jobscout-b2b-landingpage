@@ -148,7 +148,7 @@ const GetInTouch = () => {
                     placeholder="Enter your number"
                     international
                     countryCallingCodeEditable={false}
-                    defaultCountry="US"
+                    defaultCountry="IN"
                     className={`w-full rounded border border-[#E6E6E6] bg-white px-1 py-2 outline-none focus:bg-white text-base placeholder:text-base ${
                       errors.phoneNumber ? "" : ""
                     }`}

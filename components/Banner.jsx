@@ -1,6 +1,8 @@
+import { useRouter } from "next/router";
 import React from "react";
 
 function Banner() {
+	const router = useRouter()
 	return (
 		<div className="relative bg-gradient-to-b from-primary via-primary/95 to-primary/75 min-h-screen overflow-hidden">
 			<div className="grid-background "></div>
@@ -32,11 +34,11 @@ function Banner() {
 					</div>
 
 					<div className="lg:flex lg:flex-row flex flex-col items-center space-y-5 lg:space-y-0 lg:space-x-6">
-						<button className="bg-text py-3 px-5 rounded text-lg">
+						<button className="bg-text py-3 px-5 rounded text-lg" onClick={()=>router.push("/#get-started")}>
 							Get started for free
 						</button>
 
-						<button className="bg-white/10  py-3 px-10 rounded text-lg">
+						<button className="bg-white/10  py-3 px-10 rounded text-lg"  onClick={()=>router.push("/get-started")}>
 							Request Demo
 						</button>
 					</div>
