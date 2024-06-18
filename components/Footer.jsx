@@ -64,9 +64,9 @@ const Footer = () => {
 						<div className="flex flex-col gap-2">
 							<Link
 								className="text-white/50 hover:text-white"
-								href="/"
+								href="/case-studies"
 							>
-								Guides
+								Case Studies
 							</Link>
 							<Link
 								className="text-white/50 hover:text-white"

@@ -1,0 +1,104 @@
+.body {
+  @apply max-w-6xl leading-7 text-base tracking-wide;
+}
+
+.heading {
+  @apply mb-2 cursor-pointer pt-1 pb-2 md:text-5xl text-3xl font-semibold tracking-wide ;
+}
+.pageHeading {
+  @apply pt-1 pb-4 md:text-2xl text-lg font-bold leading-7 tracking-wide;
+}
+
+.storyHeading {
+  @apply 2xl:text-[13rem] xl:text-[10rem] text-[10rem] 2xl:leading-[200px] xl:leading-[160px] leading-[160px] text-primary mb-14  uppercase;
+}
+.sectionHeading {
+  @apply sm:text-[6rem] text-8xl  mb-10  text-primary  uppercase transition-all duration-300;
+}
+
+/* Apply base font sizes and styles for typography markup (h2, h2, ul, p, etc.).
+   A helpful addition for whenn page content is consumed from a source managed through a wysiwyg editor. */
+
+.body :is(h1, h2, h3, h4, h5, h6, p, ul, ol) {
+  @apply mb-2;
+}
+
+.body :is(h1, h2, h3, h4, h5, h6):not(:first-child) {
+  @apply mt-5;
+}
+
+.body :is(h1, h2, h3, h4, h5, h6) {
+  @apply font-semibold tracking-wide;
+}
+
+.body h1 {
+  @apply text-5xl;
+}
+
+.body h2 {
+  @apply text-4xl;
+}
+
+.body h3 {
+  @apply text-3xl;
+}
+
+.body h4 {
+  @apply text-2xl;
+}
+
+.body h5 {
+  @apply text-xl;
+}
+
+.body h6 {
+  @apply text-lg;
+}
+
+.body ul,
+.body ol {
+  @apply pl-6 list-inside;
+}
+
+.body ul {
+  @apply list-disc;
+}
+
+.body ol {
+  @apply list-decimal;
+}
+
+.body ul,
+.body ol > li {
+  @apply my-2 text-xl;
+}
+
+.body a {
+  @apply underline;
+}
+
+.body a:hover {
+  @apply no-underline;
+}
+.body p {
+  @apply text-xl;
+}
+.body p:not(:first-child) {
+  @apply pb-5 mb-0;
+}
+
+.body table:not(:first-child) {
+  @apply mt-10 w-full;
+}
+
+.body table > tr {
+  @apply bg-primary;
+}
+
+.body table > tr > th {
+  @apply bg-primary text-primary text-start font-bold sm:text-3xl text-sm py-2 sm:px-4 px-2;
+}
+
+.body table > tr > td {
+  @apply border-b-[1px] border-black/5 py-4 px-4;
+}
