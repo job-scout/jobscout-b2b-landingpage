@@ -76,14 +76,14 @@ const FAQ = () => {
               Find answers to the most popular questions about JobScout here.
               If you are facing any issue using the website,{" "}
               <span
-                onClick={() => router.push("/contact-us")}
-                className="underline cursor-pointer hover:text-primary"
+                onClick={() => router.push("/#contact-us")}
+                className="underline cursor-pointer hover:text-primary font-medium text-primary"
               >
                 contact us
               </span>{" "}
               at{" "}
-              <a href="mailto:support@jobscout.work" className="underline hover:text-primary">
-                support@jobscout.work
+              <a href="mailto:support@jobscout.co.in" className="underline hover:text-primary text-primary font-medium">
+                support@jobscout.co.in
               </a>{" "}
             
               <br /> We are here to help you 24/7.

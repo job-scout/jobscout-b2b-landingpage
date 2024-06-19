@@ -1,8 +1,10 @@
 import React, { useState } from "react";
 
 import Link from "next/link";
+import { useRouter } from "next/router";
 
 const Navbar = () => {
+	const router = useRouter()
 	const [isVisible, setIsVisible] = useState(true);
 
 	// Function to hide the banner
@@ -65,7 +67,7 @@ const Navbar = () => {
 							Login
 						</button>
 
-						<button className="sublime-light text-white font-semibold px-4 py-2 rounded">
+						<button className="sublime-light text-white font-semibold px-4 py-2 rounded" onClick={()=>router.push("/get-started")}>
 							Try Demo 
 						</button>
 					</div>
