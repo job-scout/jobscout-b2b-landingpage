@@ -100,13 +100,13 @@ function BlogDetailPage({ blog }) {
 					<path d="M2 12H22" />
 				</svg>
 			</button>
-			<h1 className="text-3xl font-medium leading-normal ">
+			<h1 className="text-xl lg:text-3xl font-medium leading-normal text-black ">
 				{title}
 			</h1>
 
 			<div>
 				<div className="font-medium lg:flex  lg:flex-row flex flex-col space-y-3 lg:space-y-0  justify-between items-center py-3 border-y border-[#BDBDBD]">
-					<div className="flex items-center space-x-2">
+					<div className="flex items-center space-x-2 text-gray-500 ">
 						<p>{formattedDateStr}</p>
 
 						<svg
