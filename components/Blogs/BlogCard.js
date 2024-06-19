@@ -129,7 +129,7 @@ const [loaded, setLoaded] = useState(false);
 			</div>
 			<div className="flex items-center w-full justify-between  mb-5 px-5">
 			<Link href={`/blogs/${slug}-${id}`}>
-					<button className="text-lg text-[#cc56b8] underline underline-offset-8 font-medium">
+					<button className="text-lg text-[#cc56b8] underline underline-offset-8 font-semibold">
 						Read More
 					</button>
 				</Link>
