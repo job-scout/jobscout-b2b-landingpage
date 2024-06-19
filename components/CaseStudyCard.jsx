@@ -42,7 +42,7 @@ const CaseStudyCard = ({ index, blog }) => {
       {/* <div className="absolute top-[-80px] left-[80px] md:top-[-150px] md:left-[250px] xl:top-[65px] xl:left-[-200px]"> */}
       <div className=" -mb-8 lg:mb-0 lg:-me-12 z-10 rounded-full  bg-white">
       
-        <div  className="lg:w-32 w-28 lg:h-32 h-28 rounded-full  p-4 shadow-lg flex items-center justify-center velvet-sun text-white text-5xl font-semibold ">
+        <div  className="lg:w-32 w-24 lg:h-32 h-24 rounded-full  p-4 shadow-lg flex items-center justify-center velvet-sun text-white text-5xl font-semibold ">
         { blog?.id}
         </div>
       </div>
