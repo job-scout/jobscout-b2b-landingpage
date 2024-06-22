@@ -76,7 +76,7 @@ function Features() {
 			{/*2 section */}
 			<div className=" bg-primary py-12">
 				<div className="lg:flex lg:flex-row flex flex-col items-center justify-between lg:space-x-12  px-4 container mx-auto w-full lg:w-[80%] 2xl:w-[80%]">
-					<div className="lg:w-[40%]  flex lg:items-end lg:justify-end">
+					<div className="lg:w-[40%]  lg:flex lg:items-end lg:justify-end hidden ">
 						<img
 							src="coding.gif"
 							className="w-auto  h-auto"
@@ -249,10 +249,7 @@ function Features() {
 				</div>
 			</div>
 
-
-
-
-			{/*5 section */ }
+			{/*5 section */}
 			<div className="lg:flex lg:flex-row flex flex-col items-center justify-between lg:space-x-12 container mx-auto px-4 py-7 lg:w-[80%] 2xl:w-[80%]">
 				<div className="lg:w-[50%] flex flex-col">
 					<h1 className="text-black text-2xl lg:text-3xl font-medium">
